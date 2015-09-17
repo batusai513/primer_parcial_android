@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Parcial</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login_user">Nombre de usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Entrar</string>
+    <string name="redirecting">Redirigiendo...</string>
+    <string name="title_activity_menu">Menu Principal</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
