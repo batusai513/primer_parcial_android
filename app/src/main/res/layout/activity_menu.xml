@@ -6,7 +6,30 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.richard.parcial.MenuActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView android:id="@+id/welcome_message" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:tag="CONTACT_ACTIVITY"
+            android:layout_weight="1"
+            android:text="@string/menu_register"
+            android:onClick="onClickHandler" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:tag="GUESS_ACTIVITY"
+            android:layout_weight="1"
+            android:onClick="onClickHandler"
+            android:text="@string/menu_guess"/>
+    </LinearLayout>
 
 </RelativeLayout>

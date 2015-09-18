@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
     private void authenticate(String username, String Password){
         Intent menuIntent = new Intent(this, MenuActivity.class);
         if(username.equals(this.USUARIO) && password.equals(this.PASS)){
-            menuIntent.putExtra("username", username);
+            menuIntent.putExtra("user", username);
             Toast.makeText(getApplicationContext(), R.string.redirecting, Toast.LENGTH_SHORT).show();
             startActivity(menuIntent);
         }else{

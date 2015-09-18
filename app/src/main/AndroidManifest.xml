@@ -20,6 +20,23 @@
             android:name=".MenuActivity"
             android:label="@string/title_activity_menu" >
         </activity>
+        <activity
+            android:name=".GuessActivity"
+            android:label="@string/title_activity_guess" >
+            <intent-filter>
+                <action android:name="com.example.richard.parcial.GUESS_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+            <intent-filter>
+                <action android:name="com.example.richard.parcial.CONTACT_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
