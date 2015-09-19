@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Parcial</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="login_user">Nombre de usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Entrar</string>
+    <string name="redirecting">Redirigiendo...</string>
+
+
+    <string name="welcomeMessageString">Bienvenido </string>
+
+    <string name="menu_register">Registrar Usuario </string>
+    <string name="menu_guess">Adivina el numero </string>
+
+    <string name="guess_intro">Hemos escogido un número al azar. Adivina cuál es. Tienes siete oportunidades. ¡Buena suerte!</string>
+    <string name="guess_try">Intentar</string>
+    <string name="guess_retry">Volver a Comenzar</string>
+    <string name="guess_no_number">Oh, no... Ingresa un número del 1 al 100</string>
+    <string name="guess_gratz">¡Felicidades, has ganado!</string>
+    <string name="guess_last">Aún no lo adivinas y... sólo te queda una última oportunidad. ¡Mejor que la hagas valer!</string>
+    <string name="guess_opportunity_first">No, ese no es el número. Pero no te preocupes, te quedan </string>
+    <string name="guess_opportunity_last"> oportunidades, así que inténtalo de nuevo.</string>
+    <string name="guess_sorry">Lo siento, has perdido. El número era.. </string>
+
+    <string name="guess_hint_really_close">Estas muy cerca!</string>
+    <string name="guess_hint_close">Te estas acercando!</string>
+    <string name="guess_hint_far">Aun muy lejos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_guess">Adivina el numero</string>
+    <string name="title_activity_menu">Menu Principal</string>
+    <string name="title_activity_register">Registra a un contacto</string>
+    
+    <string name="register_contact_name">Nombre</string>
+    <string name="register_contact_phone">Telefono</string>
+    <string name="register_contact_birth">Cumpleaños</string>
+    <string name="register_contact_save">Guardar</string>
+    <string name="register_contact_cancel">Cancelar</string>
+    <string name="register_contact_back">Regresar</string>
+    <string-array name="register_contact_type">
+        <item>Familia</item>
+        <item>Oficina</item>
+        <item>Amistad</item>
+    </string-array>
+
+    <string-array name="register_contact_sex">
+        <item>Femenino</item>
+        <item>Masculino</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

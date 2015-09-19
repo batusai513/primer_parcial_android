@@ -2,47 +2,51 @@
     <string name="app_name">Parcial</string>
     <string name="action_settings">Settings</string>
 
-    <string name="login_user">Nombre de usuario</string>
-    <string name="login_password">Contraseña</string>
-    <string name="login_button">Entrar</string>
-    <string name="redirecting">Redirigiendo...</string>
+    <string name="login_user">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Enter</string>
+    <string name="redirecting">Redirecting...</string>
 
 
-    <string name="welcomeMessageString">Bienvendo </string>
+    <string name="welcomeMessageString">Welcome </string>
 
-    <string name="menu_register">Registrar Usuario </string>
-    <string name="menu_guess">Adivina el numero </string>
+    <string name="menu_register">Register User </string>
+    <string name="menu_guess">Guess the number </string>
 
-    <string name="guess_intro">Hemos escogido un número al azar. Adivina cuál es. Tienes siete oportunidades. ¡Buena suerte!</string>
-    <string name="guess_try">Intentar</string>
-    <string name="guess_retry">Volver a Comenzar</string>
-    <string name="guess_no_number">Oh, no... Ingresa un número del 1 al 100</string>
-    <string name="guess_gratz">¡Felicidades, has ganado!</string>
-    <string name="guess_last">"Aún no lo adivinas y... sólo te queda una última oportunidad. ¡Mejor que la hagas valer!</string>
-    <string name="guess_opportunity_first">No, ese no es el número. Pero no te preocupes, te quedan </string>
-    <string name="guess_opportunity_last"> oportunidades, así que inténtalo de nuevo.</string>
-    <string name="guess_sorry">Lo siento, has perdido. El número era </string>
+    <string name="guess_intro">We have chosen a random number. Guess which is. You have five opportunities. ¡Good look!</string>
+    <string name="guess_try">Try!</string>
+    <string name="guess_retry">start Again</string>
+    <string name="guess_no_number">Oh, no... Add a number between 1 and 1000</string>
+    <string name="guess_gratz">¡Congratualtions, you have Won!</string>
+    <string name="guess_last">Still not there... you only have one chance. ¡You better make worth of it!</string>
+    <string name="guess_opportunity_first">No, that is not the number But don\'t worry you still have</string>
+    <string name="guess_opportunity_last"> opportunities, so try again.</string>
+    <string name="guess_sorry">We are sorry, you have lost. The number was... </string>
+    
+    <string name="guess_hint_really_close">You are Really close!</string>
+    <string name="guess_hint_close">You are closing the gap!</string>
+    <string name="guess_hint_far">Too far</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_guess">GuessActivity</string>
-    <string name="title_activity_menu">Menu Principal</string>
-    <string name="title_activity_register">Registra a un contacto</string>
+    <string name="title_activity_guess">Guess the Number</string>
+    <string name="title_activity_menu">Main menu</string>
+    <string name="title_activity_register">Register a Contact</string>
     
-    <string name="register_contact_name">Nombre</string>
-    <string name="register_contact_phone">Telefono</string>
-    <string name="register_contact_birth">Cumpleaños</string>
-    <string name="register_contact_save">Guardar</string>
-    <string name="register_contact_cancel">Cancelar</string>
-    <string name="register_contact_back">Regresar</string>
+    <string name="register_contact_name">Name</string>
+    <string name="register_contact_phone">Telephone</string>
+    <string name="register_contact_birth">Birthday</string>
+    <string name="register_contact_save">Save</string>
+    <string name="register_contact_cancel">Cancel</string>
+    <string name="register_contact_back">Back</string>
     <string-array name="register_contact_type">
-        <item>Familia</item>
-        <item>Oficina</item>
-        <item>Amistad</item>
+        <item>Family</item>
+        <item>Office</item>
+        <item>Friendship</item>
     </string-array>
 
     <string-array name="register_contact_sex">
-        <item>Femenino</item>
-        <item>Masculino</item>
-        <item>Otro</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
     </string-array>
 </resources>

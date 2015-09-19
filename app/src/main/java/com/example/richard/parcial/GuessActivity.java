@@ -63,11 +63,11 @@ public class GuessActivity extends Activity {
     private String hint(int number){
         int resto = Math.abs(numero_aleatorio - number);
         if (resto > 1 && resto <= 10) {
-            return "estas muy cerca!";
+            return getResources().getString(R.string.guess_hint_really_close);
         }else if(resto > 10 && resto <= 20){
-            return "te estas acercando";
+            return getResources().getString(R.string.guess_hint_close);
         }else{
-            return "estas muy lejos";
+            return getResources().getString(R.string.guess_hint_far);
         }
 
     }

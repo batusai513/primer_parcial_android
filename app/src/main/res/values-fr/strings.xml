@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Parcial</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="login_user">Nom d\'utilisateur</string>
+    <string name="login_password">Mot de passe</string>
+    <string name="login_button">Entrer</string>
+    <string name="redirecting">redirection...</string>
+
+
+    <string name="welcomeMessageString">Bienvenue </string>
+
+    <string name="menu_register">Enregistrer un nouvel utilisateur </string>
+    <string name="menu_guess">Devinez le nombre </string>
+
+    <string name="guess_intro">Nous avons choisi un nombre aléatoire. Devinez qui est. Vous hace cinq occasions. Bonne apparence!</string>
+    <string name="guess_try">Juger!</string>
+    <string name="guess_retry">recommence</string>
+    <string name="guess_no_number">Oh, non ... Ajouter un nombre entre 1 et 1000</string>
+    <string name="guess_gratz">¡Congratualtions, vous avez gagné!</string>
+    <string name="guess_last">Toujours pas là ... vous avez une seule chance. ¡Tu ferais mieux de faire de la peine de lui!</string>
+    <string name="guess_opportunity_first">Non, cela ne l\'number mais ne vous inquiétez pas vous avez toujours</string>
+    <string name="guess_opportunity_last"> opportunités, alors essayez à nouveau.</string>
+    <string name="guess_sorry">Nous sommes désolé, vous avez perdu. Le nombre était ...</string>
+
+    <string name="guess_hint_really_close">Vous êtes vraiment proche!</string>
+    <string name="guess_hint_close">Vous êtes Combler le fossé!</string>
+    <string name="guess_hint_far">Trop loin</string>
+
+    <string name="hello_world">Bonjour le monde!</string>
+    <string name="title_activity_guess">Deviner le nombre</string>
+    <string name="title_activity_menu">Menu principal</string>
+    <string name="title_activity_register">Inscrivez-vous un contact</string>
+
+    <string name="register_contact_name">Nom</string>
+    <string name="register_contact_phone">Téléphone</string>
+    <string name="register_contact_birth">anniversaire</string>
+    <string name="register_contact_save">sauvegarder</string>
+    <string name="register_contact_cancel">annuler</string>
+    <string name="register_contact_back">Arrière</string>
+    <string-array name="register_contact_type">
+        <item>famille</item>
+        <item>Bureau</item>
+        <item>Amitié</item>
+    </string-array>
+
+    <string-array name="register_contact_sex">
+        <item>Femelle</item>
+        <item>mâle</item>
+        <item>autre</item>
+    </string-array>
+</resources>
